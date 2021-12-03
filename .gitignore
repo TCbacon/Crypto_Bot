@@ -1,0 +1,10 @@
+
+# virtual env
+/virtual
+
+# txt files
+notes.txt
+
+# cache
+__pycache__
+
