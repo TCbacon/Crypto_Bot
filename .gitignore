@@ -4,6 +4,9 @@
 
 # txt files
 notes.txt
+order_errors.txt
+conn_errors.txt
+orders.txt
 
 # cache
 __pycache__

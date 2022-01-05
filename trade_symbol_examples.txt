@@ -1,0 +1,4 @@
+ethusd
+btcusd
+ltcusd
+bchusd

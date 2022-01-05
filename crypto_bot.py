@@ -9,6 +9,8 @@ import datetime
 """
 A trading bot used to make orders on binance.us
 The bot was tested and works with buying and selling ethereum
+
+This is only the code and not the tkinter app
 """
 client = Client(config.API_KEY, config.API_SECRET, tld='us')
 
@@ -56,7 +58,7 @@ def order(side, quantity, symb, order_type=ORDER_TYPE_MARKET,last_rsi=-1):
 def on_open(ws):
     print("opened connection")
 
-def on_close(ws):
+def on_close(ws, status, message):
     print("closed connection")
 def on_message(ws, message):
     global closes 
