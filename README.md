@@ -29,3 +29,7 @@ The buy and sell logic was made with the help of this great video:
 
 <p>Help Page</p>
 <img src="./images/help_page.jpg" alt="help-page-img"></p>
+
+## Disclaimer
+The stock and crypto markets are very risky. I am not a financial advisor. 
+I am not responsible or liable for how you decide to use the program or source code.
